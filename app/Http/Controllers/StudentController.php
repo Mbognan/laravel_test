@@ -19,16 +19,12 @@ class StudentController extends Controller
             'name' => 'required',
             'age' => 'required|numeric',
             'address' => 'required',
-
-
-
         ]);
         $newStudent = Student::create($data);
         return redirect(route('student.index'));
 
-
-
-
     }
+
+    public function t(){}
 }
 
