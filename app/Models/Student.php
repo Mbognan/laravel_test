@@ -14,4 +14,6 @@ class Student extends Model
         'address',
 
     ];
+
+    //protected $table = "student";
 }
